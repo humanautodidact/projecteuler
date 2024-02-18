@@ -1,6 +1,4 @@
 fibonacci = [1,1]
-fib_found = False
-
 n = 2
 while True:
     fibonacci.append(fibonacci[n-1]+fibonacci[n-2])
