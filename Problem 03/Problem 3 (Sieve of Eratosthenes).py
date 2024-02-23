@@ -20,6 +20,7 @@ for i in range(2, isqrt(n)):
 if n > 2:
     primes_less_than = [i for i in range(n) if is_prime[i] == 1]
     prime_factors = [i for i in primes_less_than if (n-1) % i == 0]
+    print("The list of primes less than " + str(n) + " is " + str(primes_less_than))
     print("The largest prime factor of " + str(n - 1) + " is " + str(max(prime_factors)) + ".")
 
 # Test numbers: 13195, 600851475143
