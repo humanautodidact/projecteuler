@@ -1,0 +1,1 @@
+print(len(str(1000)))
