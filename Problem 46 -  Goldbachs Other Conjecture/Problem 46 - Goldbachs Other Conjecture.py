@@ -7,14 +7,12 @@ def primality(m):
     else:
         return "composite"
 
-# Make a list to put primes into.
-primes = []
+
 # Iterate through each positive integer n with a while loop
 found_counterexample = False
 n = 1
 while not found_counterexample:
     if n % 2 != 0 and primality(n) == "composite":
-        primes = [p for p in range(2, isqrt(n)) if primality(p) == "prime"]
         # print(primes)
         # We need to build the prime list up to n-2. Since p <= n-2.
         conjecture = False
