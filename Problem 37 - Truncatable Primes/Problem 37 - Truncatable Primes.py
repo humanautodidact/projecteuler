@@ -27,7 +27,7 @@ def right_remove(x):
 
 
 def is_truncatable(x):
-    if x in range(0,10):
+    if x in range(0, 10):
         return False
     else:
         result = True
