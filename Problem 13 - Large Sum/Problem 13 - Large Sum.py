@@ -103,6 +103,7 @@ big_numbers = [100, 200, 300]
 
 
 def add_big_numbers(num1: int, num2: int):
+    list1 = [int(digit) for digit in str(num1)]
     return num1 + num2
 
 
