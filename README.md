@@ -1,7 +1,6 @@
 # Project Euler Solutions
 
-My Python solutions to problems from [Project Euler](https://projecteuler.net), a collection of math and programming challenges that usually need both mathematical insight and efficient code to solve. I worked through these on my own to practice Python and mathematical problem solving, with a focus on number theory and combinatorics.
-
+My solutions coded in Python for the problems on the [Project Euler](https://projecteuler.net) website, which is a set of math/programming problems that require knowledge from both areas to solve them. The purpose of doing this is to practice coding while enjoying fun number theory & combinatorics problems.
 ## Solved (30)
 
 | # | Problem | Code |
