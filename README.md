@@ -42,9 +42,3 @@ My solutions coded in Python for the problems on the [Project Euler](https://pro
 |---|---------|------|
 | 33 | [Digit Cancelling Fractions](https://projecteuler.net/problem=33) | [Work so far](In%20Progress/Problem%20033%20-%20Digit%20Cancelling%20Fractions/) |
 | 71 | [Ordered Fractions](https://projecteuler.net/problem=71) | [Work so far](In%20Progress/Problem%20071%20-%20Ordered%20Fractions/) |
-
-## How the repository is organized
-
-- Each problem has its own folder, and the main solution file shares the folder's name.
-- Problem 3 also includes several alternative approaches I tried, such as a Sieve of Eratosthenes and a 6k+1 method.
-- Problem 11 reads its grid from `data.txt`, so run it from inside its folder.
